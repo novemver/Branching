@@ -15,5 +15,16 @@ example add to main
 * 'git status' - show commit status of local repo
 * 'git log' - show commit log
 * 'git log --oneline' - show commit log (compact format)
+* 'git config -l' - list repo configuration
 
+### Branching Commands
 
+* 'git branch' - list local branches
+* 'git branch branchName' - create local branch 'branchName'
+* 'git checkout branchName' - switch to branch 'branchName'
+
+### Remote Commands
+
+* 'git remote add origin repoUrl' - create alias 'origin' for remote repo 'repoUrl'
+* 'git push origin branchName' - push to remote branch 'branchName'  
+* 'git push -u origin branchName' push to remote branch 'branchName', making it the defailt remote 
